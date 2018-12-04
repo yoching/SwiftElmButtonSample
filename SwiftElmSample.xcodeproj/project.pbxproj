@@ -18,7 +18,7 @@
 		307F2AB821B51C2B00B137E6 /* VirtualViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F2AB721B51C2B00B137E6 /* VirtualViewControllers.swift */; };
 		307F2ABA21B51C8400B137E6 /* VirtualViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F2AB921B51C8400B137E6 /* VirtualViews.swift */; };
 		307F2ABC21B5210E00B137E6 /* VirtualViews+Rendering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F2ABB21B5210E00B137E6 /* VirtualViews+Rendering.swift */; };
-		307F2ABF21B524B100B137E6 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F2ABE21B524B100B137E6 /* Views.swift */; };
+		E3B1F6CB21B5806000E58073 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B1F6CA21B5806000E58073 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 		307F2AB721B51C2B00B137E6 /* VirtualViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualViewControllers.swift; sourceTree = "<group>"; };
 		307F2AB921B51C8400B137E6 /* VirtualViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualViews.swift; sourceTree = "<group>"; };
 		307F2ABB21B5210E00B137E6 /* VirtualViews+Rendering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VirtualViews+Rendering.swift"; sourceTree = "<group>"; };
-		307F2ABE21B524B100B137E6 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		E3B1F6CA21B5806000E58073 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +107,7 @@
 		3059492721B519CF0082FB01 /* SwiftElmSample */ = {
 			isa = PBXGroup;
 			children = (
+				307F2AB521B51B7700B137E6 /* ViewState.swift */,
 				307F2AB421B51B6E00B137E6 /* Model */,
 				307F2ABD21B524A100B137E6 /* View */,
 				307F2AB121B51B1E00B137E6 /* Elm */,
@@ -151,7 +152,7 @@
 		307F2AB421B51B6E00B137E6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				307F2AB521B51B7700B137E6 /* ViewState.swift */,
+				E3B1F6CA21B5806000E58073 /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -159,7 +160,6 @@
 		307F2ABD21B524A100B137E6 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				307F2ABE21B524B100B137E6 /* Views.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -297,10 +297,10 @@
 				307F2AB321B51B2900B137E6 /* Driver.swift in Sources */,
 				307F2ABC21B5210E00B137E6 /* VirtualViews+Rendering.swift in Sources */,
 				307F2ABA21B51C8400B137E6 /* VirtualViews.swift in Sources */,
-				307F2ABF21B524B100B137E6 /* Views.swift in Sources */,
 				307F2AB621B51B7700B137E6 /* ViewState.swift in Sources */,
 				3059492921B519CF0082FB01 /* AppDelegate.swift in Sources */,
 				307F2AB821B51C2B00B137E6 /* VirtualViewControllers.swift in Sources */,
+				E3B1F6CB21B5806000E58073 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

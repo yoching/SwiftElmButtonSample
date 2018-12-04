@@ -12,7 +12,7 @@ final class Driver<Model, Message> {
     private(set) var viewController: UIViewController = UIViewController()
     init(
         _ initial: Model,
-        view: @escaping(Model) -> ViewController<Message>
+        view: @escaping (Model) -> ViewController<Message>
         ) {
         self.model = initial
         view(model).render(change: &viewController)
