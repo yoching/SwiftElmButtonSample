@@ -11,7 +11,6 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    let model = Model(value: 0)
     var driver: Driver<AppState, AppState.Message>!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -19,7 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         
         driver = Driver<AppState, AppState.Message>(
-            AppState(value: model.value),
+            AppState(value: 0),
+            update: { state, message in state.update(message) },
             view: { state in state.viewController }
         )
         

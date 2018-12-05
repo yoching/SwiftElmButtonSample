@@ -18,7 +18,7 @@
 		307F2AB821B51C2B00B137E6 /* VirtualViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F2AB721B51C2B00B137E6 /* VirtualViewControllers.swift */; };
 		307F2ABA21B51C8400B137E6 /* VirtualViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F2AB921B51C8400B137E6 /* VirtualViews.swift */; };
 		307F2ABC21B5210E00B137E6 /* VirtualViews+Rendering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F2ABB21B5210E00B137E6 /* VirtualViews+Rendering.swift */; };
-		E3B1F6CB21B5806000E58073 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B1F6CA21B5806000E58073 /* Model.swift */; };
+		E3B1F6CD21B6CC9900E58073 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B1F6CC21B6CC9900E58073 /* Command.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 		307F2AB721B51C2B00B137E6 /* VirtualViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualViewControllers.swift; sourceTree = "<group>"; };
 		307F2AB921B51C8400B137E6 /* VirtualViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualViews.swift; sourceTree = "<group>"; };
 		307F2ABB21B5210E00B137E6 /* VirtualViews+Rendering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VirtualViews+Rendering.swift"; sourceTree = "<group>"; };
-		E3B1F6CA21B5806000E58073 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E3B1F6CC21B6CC9900E58073 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +145,7 @@
 				307F2AB721B51C2B00B137E6 /* VirtualViewControllers.swift */,
 				307F2AB921B51C8400B137E6 /* VirtualViews.swift */,
 				307F2ABB21B5210E00B137E6 /* VirtualViews+Rendering.swift */,
+				E3B1F6CC21B6CC9900E58073 /* Command.swift */,
 			);
 			path = Elm;
 			sourceTree = "<group>";
@@ -152,7 +153,6 @@
 		307F2AB421B51B6E00B137E6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E3B1F6CA21B5806000E58073 /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -300,7 +300,7 @@
 				307F2AB621B51B7700B137E6 /* ViewState.swift in Sources */,
 				3059492921B519CF0082FB01 /* AppDelegate.swift in Sources */,
 				307F2AB821B51C2B00B137E6 /* VirtualViewControllers.swift in Sources */,
-				E3B1F6CB21B5806000E58073 /* Model.swift in Sources */,
+				E3B1F6CD21B6CC9900E58073 /* Command.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

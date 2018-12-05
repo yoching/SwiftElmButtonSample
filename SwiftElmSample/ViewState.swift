@@ -15,11 +15,17 @@ struct AppState {
     // UPDATE
     enum Message {
         case increment
-        case modelNotification(Notification)
+    }
+    
+    mutating func update(_ message: Message) {
+        switch message {
+        case .increment:
+            value = value + 1
+        }
     }
     
     // VIEW
     var viewController: ViewController<Message> {
-        return ._viewController(.label(text: "\(value)"))
+        return ._viewController(.button(text: "\(value)", onTap: .increment))
     }
 }
