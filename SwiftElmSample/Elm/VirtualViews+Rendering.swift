@@ -14,9 +14,17 @@ extension ViewController {
         ) -> StrongReferences {
         switch self {
         case ._viewController(let view):
+
             var renderer = Renderer<Message>(callback: callback)
             let newView = renderer.update(view: view)
+            
+            // Remove all subviews & add new views
+            // This should be differential updates in production projects
+            for view in change.view.subviews {
+                view.removeFromSuperview()
+            }
             change.view.addSubview(newView)
+            
             newView.translatesAutoresizingMaskIntoConstraints = false
             
             change.view.addConstraints([
