@@ -7,39 +7,38 @@
 
 import UIKit
 
-final class Driver<Model, Message> {
-    private var model: Model
+final class Driver<State, Message> {
+    private var state: State
     private var strongReferences = StrongReferences()
     private(set) var viewController: UIViewController = UIViewController()
     
-    private let updateState: (inout Model, Message) -> Void
-    private let computeView: (Model) -> ViewController<Message>
+    private let updateState: (inout State, Message) -> Void
+    private let computeView: (State) -> ViewController<Message>
     init(
-        _ initial: Model,
-        update: @escaping (inout Model, Message) -> Void,
-        view: @escaping (Model) -> ViewController<Message>
+        _ initial: State,
+        update: @escaping (inout State, Message) -> Void,
+        view: @escaping (State) -> ViewController<Message>
         ) {
-        self.model = initial
+        self.state = initial
         self.updateState = update
         self.computeView = view
         
-        strongReferences = computeView(model)
-            .render(callback: asyncSend, change: &viewController)
+        refresh()
     }
     
-    func asyncSend(action: Message) {
+    func asyncSend(message: Message) {
         DispatchQueue.main.async { [unowned self] in
-            self.run(action: action)
+            self.run(message: message)
         }
     }
     
-    func run(action: Message) {
-        updateState(&model, action)
+    func run(message: Message) {
+        updateState(&state, message)
         refresh()
     }
     
     func refresh() {
-        strongReferences = computeView(model)
+        strongReferences = computeView(state)
             .render(callback: asyncSend, change: &viewController)
     }
 }
