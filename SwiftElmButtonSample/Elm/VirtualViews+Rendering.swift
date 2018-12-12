@@ -1,6 +1,6 @@
 //
 //  VirtualViews+Rendering.swift
-//  SwiftElmSample
+//  SwiftElmButtonSample
 //
 //  Created by Yoshikuni Kato on 2018/12/03.
 //

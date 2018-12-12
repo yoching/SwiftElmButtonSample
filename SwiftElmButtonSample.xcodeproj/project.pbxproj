@@ -11,31 +11,12 @@
 		3059492E21B519CF0082FB01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3059492C21B519CF0082FB01 /* Main.storyboard */; };
 		3059493021B519D00082FB01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3059492F21B519D00082FB01 /* Assets.xcassets */; };
 		3059493321B519D00082FB01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3059493121B519D00082FB01 /* LaunchScreen.storyboard */; };
-		3059493E21B519D00082FB01 /* SwiftElmSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059493D21B519D00082FB01 /* SwiftElmSampleTests.swift */; };
-		3059494921B519D00082FB01 /* SwiftElmSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059494821B519D00082FB01 /* SwiftElmSampleUITests.swift */; };
 		307F2AB321B51B2900B137E6 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F2AB221B51B2900B137E6 /* Driver.swift */; };
 		307F2AB621B51B7700B137E6 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F2AB521B51B7700B137E6 /* AppState.swift */; };
 		307F2AB821B51C2B00B137E6 /* VirtualViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F2AB721B51C2B00B137E6 /* VirtualViewControllers.swift */; };
 		307F2ABA21B51C8400B137E6 /* VirtualViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F2AB921B51C8400B137E6 /* VirtualViews.swift */; };
 		307F2ABC21B5210E00B137E6 /* VirtualViews+Rendering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F2ABB21B5210E00B137E6 /* VirtualViews+Rendering.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3059493A21B519D00082FB01 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3059491D21B519CF0082FB01 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3059492421B519CF0082FB01;
-			remoteInfo = SwiftElmSample;
-		};
-		3059494521B519D00082FB01 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3059491D21B519CF0082FB01 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3059492421B519CF0082FB01;
-			remoteInfo = SwiftElmSample;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3059492521B519CF0082FB01 /* SwiftElmButtonSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftElmButtonSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,12 +25,6 @@
 		3059492F21B519D00082FB01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3059493221B519D00082FB01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3059493421B519D00082FB01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3059493921B519D00082FB01 /* SwiftElmButtonSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftElmButtonSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3059493D21B519D00082FB01 /* SwiftElmSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftElmSampleTests.swift; sourceTree = "<group>"; };
-		3059493F21B519D00082FB01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3059494421B519D00082FB01 /* SwiftElmButtonSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftElmButtonSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3059494821B519D00082FB01 /* SwiftElmSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftElmSampleUITests.swift; sourceTree = "<group>"; };
-		3059494A21B519D00082FB01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		307F2AB221B51B2900B137E6 /* Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
 		307F2AB521B51B7700B137E6 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		307F2AB721B51C2B00B137E6 /* VirtualViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualViewControllers.swift; sourceTree = "<group>"; };
@@ -65,20 +40,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3059493621B519D00082FB01 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3059494121B519D00082FB01 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,8 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				3059492721B519CF0082FB01 /* SwiftElmButtonSample */,
-				3059493C21B519D00082FB01 /* SwiftElmButtonSampleTests */,
-				3059494721B519D00082FB01 /* SwiftElmButtonSampleUITests */,
 				3059492621B519CF0082FB01 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,8 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				3059492521B519CF0082FB01 /* SwiftElmButtonSample.app */,
-				3059493921B519D00082FB01 /* SwiftElmButtonSampleTests.xctest */,
-				3059494421B519D00082FB01 /* SwiftElmButtonSampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,24 +71,6 @@
 				3059493421B519D00082FB01 /* Info.plist */,
 			);
 			path = SwiftElmButtonSample;
-			sourceTree = "<group>";
-		};
-		3059493C21B519D00082FB01 /* SwiftElmButtonSampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				3059493D21B519D00082FB01 /* SwiftElmSampleTests.swift */,
-				3059493F21B519D00082FB01 /* Info.plist */,
-			);
-			path = SwiftElmButtonSampleTests;
-			sourceTree = "<group>";
-		};
-		3059494721B519D00082FB01 /* SwiftElmButtonSampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3059494821B519D00082FB01 /* SwiftElmSampleUITests.swift */,
-				3059494A21B519D00082FB01 /* Info.plist */,
-			);
-			path = SwiftElmButtonSampleUITests;
 			sourceTree = "<group>";
 		};
 		307F2AB121B51B1E00B137E6 /* Elm */ = {
@@ -165,42 +104,6 @@
 			productReference = 3059492521B519CF0082FB01 /* SwiftElmButtonSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3059493821B519D00082FB01 /* SwiftElmButtonSampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3059495021B519D00082FB01 /* Build configuration list for PBXNativeTarget "SwiftElmButtonSampleTests" */;
-			buildPhases = (
-				3059493521B519D00082FB01 /* Sources */,
-				3059493621B519D00082FB01 /* Frameworks */,
-				3059493721B519D00082FB01 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3059493B21B519D00082FB01 /* PBXTargetDependency */,
-			);
-			name = SwiftElmButtonSampleTests;
-			productName = SwiftElmSampleTests;
-			productReference = 3059493921B519D00082FB01 /* SwiftElmButtonSampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3059494321B519D00082FB01 /* SwiftElmButtonSampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3059495321B519D00082FB01 /* Build configuration list for PBXNativeTarget "SwiftElmButtonSampleUITests" */;
-			buildPhases = (
-				3059494021B519D00082FB01 /* Sources */,
-				3059494121B519D00082FB01 /* Frameworks */,
-				3059494221B519D00082FB01 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3059494621B519D00082FB01 /* PBXTargetDependency */,
-			);
-			name = SwiftElmButtonSampleUITests;
-			productName = SwiftElmSampleUITests;
-			productReference = 3059494421B519D00082FB01 /* SwiftElmButtonSampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -212,14 +115,6 @@
 				TargetAttributes = {
 					3059492421B519CF0082FB01 = {
 						CreatedOnToolsVersion = 10.1;
-					};
-					3059493821B519D00082FB01 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 3059492421B519CF0082FB01;
-					};
-					3059494321B519D00082FB01 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 3059492421B519CF0082FB01;
 					};
 				};
 			};
@@ -237,8 +132,6 @@
 			projectRoot = "";
 			targets = (
 				3059492421B519CF0082FB01 /* SwiftElmButtonSample */,
-				3059493821B519D00082FB01 /* SwiftElmButtonSampleTests */,
-				3059494321B519D00082FB01 /* SwiftElmButtonSampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -251,20 +144,6 @@
 				3059493321B519D00082FB01 /* LaunchScreen.storyboard in Resources */,
 				3059493021B519D00082FB01 /* Assets.xcassets in Resources */,
 				3059492E21B519CF0082FB01 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3059493721B519D00082FB01 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3059494221B519D00082FB01 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,36 +163,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3059493521B519D00082FB01 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3059493E21B519D00082FB01 /* SwiftElmSampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3059494021B519D00082FB01 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3059494921B519D00082FB01 /* SwiftElmSampleUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3059493B21B519D00082FB01 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3059492421B519CF0082FB01 /* SwiftElmButtonSample */;
-			targetProxy = 3059493A21B519D00082FB01 /* PBXContainerItemProxy */;
-		};
-		3059494621B519D00082FB01 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3059492421B519CF0082FB01 /* SwiftElmButtonSample */;
-			targetProxy = 3059494521B519D00082FB01 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3059492C21B519CF0082FB01 /* Main.storyboard */ = {
@@ -462,7 +312,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yoshikuni-web.SwiftElmSample";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoshikuni-web.SwiftElmButtonSample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -480,92 +330,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yoshikuni-web.SwiftElmSample";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoshikuni-web.SwiftElmButtonSample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		3059495121B519D00082FB01 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4DNR887AL8;
-				INFOPLIST_FILE = SwiftElmSampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yoshikuni-web.SwiftElmSampleTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftElmButtonSample.app/SwiftElmButtonSample";
-			};
-			name = Debug;
-		};
-		3059495221B519D00082FB01 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4DNR887AL8;
-				INFOPLIST_FILE = SwiftElmSampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yoshikuni-web.SwiftElmSampleTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftElmButtonSample.app/SwiftElmButtonSample";
-			};
-			name = Release;
-		};
-		3059495421B519D00082FB01 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4DNR887AL8;
-				INFOPLIST_FILE = SwiftElmSampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yoshikuni-web.SwiftElmSampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftElmSample;
-			};
-			name = Debug;
-		};
-		3059495521B519D00082FB01 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4DNR887AL8;
-				INFOPLIST_FILE = SwiftElmSampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yoshikuni-web.SwiftElmSampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftElmSample;
 			};
 			name = Release;
 		};
@@ -586,24 +354,6 @@
 			buildConfigurations = (
 				3059494E21B519D00082FB01 /* Debug */,
 				3059494F21B519D00082FB01 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3059495021B519D00082FB01 /* Build configuration list for PBXNativeTarget "SwiftElmButtonSampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3059495121B519D00082FB01 /* Debug */,
-				3059495221B519D00082FB01 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3059495321B519D00082FB01 /* Build configuration list for PBXNativeTarget "SwiftElmButtonSampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3059495421B519D00082FB01 /* Debug */,
-				3059495521B519D00082FB01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
