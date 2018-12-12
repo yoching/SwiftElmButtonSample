@@ -28,8 +28,12 @@ extension ViewController {
             newView.translatesAutoresizingMaskIntoConstraints = false
             
             change.view.addConstraints([
-                newView.topAnchor.constraint(equalTo: change.view.topAnchor),
-                newView.bottomAnchor.constraint(equalTo: change.view.bottomAnchor),
+                newView.topAnchor.constraint(
+                    equalTo: change.view.safeAreaLayoutGuide.topAnchor
+                ),
+                newView.bottomAnchor.constraint(
+                    equalTo: change.view.safeAreaLayoutGuide.bottomAnchor
+                ),
                 newView.leadingAnchor.constraint(equalTo: change.view.leadingAnchor),
                 newView.trailingAnchor.constraint(equalTo: change.view.trailingAnchor),
                 ])
@@ -54,6 +58,7 @@ struct Renderer<Message> {
             let uiLabel = UILabel()
             uiLabel.text = label.text
             uiLabel.textAlignment = .center
+            uiLabel.font = .systemFont(ofSize: 60)
             return uiLabel
             
         case let ._button(button):
@@ -74,6 +79,7 @@ struct Renderer<Message> {
             
             uiButton.setTitle(button.text, for: .normal)
             uiButton.setTitleColor(.orange, for: .normal)
+            uiButton.titleLabel?.font = .systemFont(ofSize: 60)
             return uiButton
             
         case let ._stackView(stackView):

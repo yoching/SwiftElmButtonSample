@@ -5,6 +5,8 @@ For simplicity, [commands and subscriptions](https://guide.elm-lang.org/effects/
 Also, incremental update of views is not implemented.  
 This is a implementation of [Buttons sample](https://guide.elm-lang.org/architecture/buttons.html) in Elm Official Guide.
 
+![](./ButtonsSample.gif)
+
 ## AppState
 This corresponds to the [Buttons sample](https://guide.elm-lang.org/architecture/buttons.html) in Elm Official Guide.
 ```swift
