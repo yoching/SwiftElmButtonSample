@@ -1,4 +1,4 @@
-# Elm Button Sample implemented in Swift
+# Elm Button Sample implemented with Swift
 
 This is a swift implementation of [Buttons sample](https://guide.elm-lang.org/architecture/buttons.html) in Elm Official Guide.  
 For simplicity, [commands and subscriptions](https://guide.elm-lang.org/effects/) are not included.  
