@@ -19,7 +19,7 @@ extension ViewController {
             let newView = renderer.makeUIView(from: view)
             
             // Remove all subviews & add new views
-            // This should be differential updates in production projects
+            // This should be incremental update in production projects
             for view in change.view.subviews {
                 view.removeFromSuperview()
             }
