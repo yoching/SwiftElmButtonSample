@@ -14,7 +14,7 @@
 		3059493E21B519D00082FB01 /* SwiftElmSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059493D21B519D00082FB01 /* SwiftElmSampleTests.swift */; };
 		3059494921B519D00082FB01 /* SwiftElmSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059494821B519D00082FB01 /* SwiftElmSampleUITests.swift */; };
 		307F2AB321B51B2900B137E6 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F2AB221B51B2900B137E6 /* Driver.swift */; };
-		307F2AB621B51B7700B137E6 /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F2AB521B51B7700B137E6 /* ViewState.swift */; };
+		307F2AB621B51B7700B137E6 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F2AB521B51B7700B137E6 /* AppState.swift */; };
 		307F2AB821B51C2B00B137E6 /* VirtualViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F2AB721B51C2B00B137E6 /* VirtualViewControllers.swift */; };
 		307F2ABA21B51C8400B137E6 /* VirtualViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F2AB921B51C8400B137E6 /* VirtualViews.swift */; };
 		307F2ABC21B5210E00B137E6 /* VirtualViews+Rendering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F2ABB21B5210E00B137E6 /* VirtualViews+Rendering.swift */; };
@@ -52,7 +52,7 @@
 		3059494821B519D00082FB01 /* SwiftElmSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftElmSampleUITests.swift; sourceTree = "<group>"; };
 		3059494A21B519D00082FB01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		307F2AB221B51B2900B137E6 /* Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
-		307F2AB521B51B7700B137E6 /* ViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewState.swift; sourceTree = "<group>"; };
+		307F2AB521B51B7700B137E6 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		307F2AB721B51C2B00B137E6 /* VirtualViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualViewControllers.swift; sourceTree = "<group>"; };
 		307F2AB921B51C8400B137E6 /* VirtualViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualViews.swift; sourceTree = "<group>"; };
 		307F2ABB21B5210E00B137E6 /* VirtualViews+Rendering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VirtualViews+Rendering.swift"; sourceTree = "<group>"; };
@@ -107,9 +107,7 @@
 		3059492721B519CF0082FB01 /* SwiftElmSample */ = {
 			isa = PBXGroup;
 			children = (
-				307F2AB521B51B7700B137E6 /* ViewState.swift */,
-				307F2AB421B51B6E00B137E6 /* Model */,
-				307F2ABD21B524A100B137E6 /* View */,
+				307F2AB521B51B7700B137E6 /* AppState.swift */,
 				307F2AB121B51B1E00B137E6 /* Elm */,
 				3059492821B519CF0082FB01 /* AppDelegate.swift */,
 				3059492C21B519CF0082FB01 /* Main.storyboard */,
@@ -148,20 +146,6 @@
 				E3B1F6CC21B6CC9900E58073 /* Command.swift */,
 			);
 			path = Elm;
-			sourceTree = "<group>";
-		};
-		307F2AB421B51B6E00B137E6 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		307F2ABD21B524A100B137E6 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,7 +281,7 @@
 				307F2AB321B51B2900B137E6 /* Driver.swift in Sources */,
 				307F2ABC21B5210E00B137E6 /* VirtualViews+Rendering.swift in Sources */,
 				307F2ABA21B51C8400B137E6 /* VirtualViews.swift in Sources */,
-				307F2AB621B51B7700B137E6 /* ViewState.swift in Sources */,
+				307F2AB621B51B7700B137E6 /* AppState.swift in Sources */,
 				3059492921B519CF0082FB01 /* AppDelegate.swift in Sources */,
 				307F2AB821B51C2B00B137E6 /* VirtualViewControllers.swift in Sources */,
 				E3B1F6CD21B6CC9900E58073 /* Command.swift in Sources */,

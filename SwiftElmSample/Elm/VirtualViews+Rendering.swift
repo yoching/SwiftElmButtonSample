@@ -16,7 +16,7 @@ extension ViewController {
         case ._viewController(let view):
 
             var renderer = Renderer<Message>(callback: callback)
-            let newView = renderer.update(view: view)
+            let newView = renderer.makeUIView(from: view)
             
             // Remove all subviews & add new views
             // This should be differential updates in production projects
@@ -48,7 +48,7 @@ struct Renderer<Message> {
         self.callback = callback
     }
     
-    mutating func update(view: View<Message>) -> UIView {
+    mutating func makeUIView(from view: View<Message>) -> UIView {
         switch view {
         case let ._label(label):
             let uiLabel = UILabel()
@@ -73,8 +73,16 @@ struct Renderer<Message> {
             }
             
             uiButton.setTitle(button.text, for: .normal)
-            uiButton.setTitleColor(.black, for: .normal)
+            uiButton.setTitleColor(.orange, for: .normal)
             return uiButton
+            
+        case let ._stackView(stackView):
+            let views = stackView.views.map { makeUIView(from: $0) }
+            let uiStackView = UIStackView(arrangedSubviews: views)
+            
+            uiStackView.distribution = stackView.distriburtion
+            uiStackView.axis = stackView.axis
+            return uiStackView
         }
     }
 }
