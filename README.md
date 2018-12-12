@@ -3,6 +3,7 @@
 Very simple sample of The Elm Architecture.  
 For simplicity, [commands and subscriptions](https://guide.elm-lang.org/effects/) are not included.  
 Also, incremental update of views is not implemented.  
+(If you want to know them, please refer to [Referenced Materials](#References).)  
 This is a implementation of [Buttons sample](https://guide.elm-lang.org/architecture/buttons.html) in Elm Official Guide.
 
 ![](./ButtonsSample.gif)
