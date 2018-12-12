@@ -1,10 +1,11 @@
 # Elm Button Sample implemented in Swift
 
-Very simple sample of The Elm Architecture.  
+This is a swift implementation of [Buttons sample](https://guide.elm-lang.org/architecture/buttons.html) in Elm Official Guide.  
 For simplicity, [commands and subscriptions](https://guide.elm-lang.org/effects/) are not included.  
-Also, incremental update of views is not implemented.  
-(If you want to know them, please refer to [Referenced Materials](#References).)  
-This is a implementation of [Buttons sample](https://guide.elm-lang.org/architecture/buttons.html) in Elm Official Guide.
+Also, incremental updates of views are not implemented.  
+(If you want to know them, please refer to [referenced materials](#References).)  
+
+I hope this will be a help to start learning The Elm Architecture with swift!
 
 ![](./ButtonsSample.gif)
 
