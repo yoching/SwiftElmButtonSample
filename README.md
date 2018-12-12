@@ -51,6 +51,6 @@ struct AppState {
 
 ## References
 - App Architecture from objc.io
- - [book & video](https://www.objc.io/books/app-architecture/)
- - [sample codes](https://github.com/objcio/app-architecture)
-   - especially, Recordings-TEA & One-App-Eight-Architectures
+  - [book & video](https://www.objc.io/books/app-architecture/)
+  - [sample codes](https://github.com/objcio/app-architecture)
+    - especially, Recordings-TEA & One-App-Eight-Architectures
