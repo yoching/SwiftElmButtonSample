@@ -15,6 +15,7 @@
 		307F2AB821B51C2B00B137E6 /* VirtualViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F2AB721B51C2B00B137E6 /* VirtualViewControllers.swift */; };
 		307F2ABA21B51C8400B137E6 /* VirtualViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F2AB921B51C8400B137E6 /* VirtualViews.swift */; };
 		307F2ABC21B5210E00B137E6 /* VirtualViews+Rendering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F2ABB21B5210E00B137E6 /* VirtualViews+Rendering.swift */; };
+		E333D64321CA9B1400788257 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = E333D64221CA9B1400788257 /* Command.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		307F2AB721B51C2B00B137E6 /* VirtualViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualViewControllers.swift; sourceTree = "<group>"; };
 		307F2AB921B51C8400B137E6 /* VirtualViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualViews.swift; sourceTree = "<group>"; };
 		307F2ABB21B5210E00B137E6 /* VirtualViews+Rendering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VirtualViews+Rendering.swift"; sourceTree = "<group>"; };
+		E333D64221CA9B1400788257 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				307F2AB721B51C2B00B137E6 /* VirtualViewControllers.swift */,
 				307F2AB921B51C8400B137E6 /* VirtualViews.swift */,
 				307F2ABB21B5210E00B137E6 /* VirtualViews+Rendering.swift */,
+				E333D64221CA9B1400788257 /* Command.swift */,
 			);
 			path = Elm;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				307F2ABC21B5210E00B137E6 /* VirtualViews+Rendering.swift in Sources */,
 				307F2ABA21B51C8400B137E6 /* VirtualViews.swift in Sources */,
 				307F2AB621B51B7700B137E6 /* AppState.swift in Sources */,
+				E333D64321CA9B1400788257 /* Command.swift in Sources */,
 				3059492921B519CF0082FB01 /* AppDelegate.swift in Sources */,
 				307F2AB821B51C2B00B137E6 /* VirtualViewControllers.swift in Sources */,
 			);
