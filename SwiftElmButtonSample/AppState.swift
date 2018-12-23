@@ -5,7 +5,7 @@
 //  Created by Yoshikuni Kato on 2018/12/03.
 //
 
-import Foundation
+import UIKit
 
 struct AppState {
     
@@ -37,6 +37,17 @@ struct AppState {
             self.value = value
             return []
         }
+    }
+    
+    // SUBSCRIPTIONS
+    var subscriptions: [Subscription<Message>] {
+        return [
+            .notification(
+                name: UIApplication.didBecomeActiveNotification,
+                { notification -> Message in
+                    return .load
+            })
+        ]
     }
     
     // VIEW

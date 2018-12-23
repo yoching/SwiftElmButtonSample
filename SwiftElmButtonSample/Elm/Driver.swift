@@ -10,19 +10,24 @@ import UIKit
 final class Driver<State, Message> {
     private var state: State
     private var strongReferences = StrongReferences()
+    private var subscriptionManager: SubscriptionManager<Message>!
     private(set) var viewController: UIViewController = UIViewController()
     
     private let updateState: (inout State, Message) -> [Command<Message>]
     private let computeView: (State) -> ViewController<Message>
+    private let fetchSubscriptions: (State) -> [Subscription<Message>]
+    
     init(
         _ initial: State,
         update: @escaping (inout State, Message) -> [Command<Message>],
-        view: @escaping (State) -> ViewController<Message>
+        view: @escaping (State) -> ViewController<Message>,
+        subscriptions: @escaping (State) -> [Subscription<Message>]
         ) {
         self.state = initial
         self.updateState = update
         self.computeView = view
-        
+        self.fetchSubscriptions = subscriptions
+        self.subscriptionManager = SubscriptionManager(self.asyncSend)
         refresh()
     }
     
@@ -48,6 +53,7 @@ final class Driver<State, Message> {
     }
     
     func refresh() {
+        subscriptionManager.update(subscriptions: fetchSubscriptions(state))
         strongReferences = computeView(state)
             .render(callback: asyncSend, change: &viewController)
     }

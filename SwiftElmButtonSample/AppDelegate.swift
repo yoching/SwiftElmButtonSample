@@ -20,7 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         driver = Driver<AppState, AppState.Message>(
             AppState(value: 0),
             update: { state, message in state.update(message) },
-            view: { state in state.viewController }
+            view: { state in state.viewController },
+            subscriptions: { state in state.subscriptions }
         )
         
         window?.rootViewController = driver.viewController

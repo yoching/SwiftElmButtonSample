@@ -16,6 +16,7 @@
 		307F2ABA21B51C8400B137E6 /* VirtualViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F2AB921B51C8400B137E6 /* VirtualViews.swift */; };
 		307F2ABC21B5210E00B137E6 /* VirtualViews+Rendering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F2ABB21B5210E00B137E6 /* VirtualViews+Rendering.swift */; };
 		E333D64321CA9B1400788257 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = E333D64221CA9B1400788257 /* Command.swift */; };
+		E3922F0021CFB1B500F07CF2 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3922EFF21CFB1B500F07CF2 /* Subscription.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		307F2AB921B51C8400B137E6 /* VirtualViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualViews.swift; sourceTree = "<group>"; };
 		307F2ABB21B5210E00B137E6 /* VirtualViews+Rendering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VirtualViews+Rendering.swift"; sourceTree = "<group>"; };
 		E333D64221CA9B1400788257 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		E3922EFF21CFB1B500F07CF2 /* Subscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				307F2AB921B51C8400B137E6 /* VirtualViews.swift */,
 				307F2ABB21B5210E00B137E6 /* VirtualViews+Rendering.swift */,
 				E333D64221CA9B1400788257 /* Command.swift */,
+				E3922EFF21CFB1B500F07CF2 /* Subscription.swift */,
 			);
 			path = Elm;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			files = (
 				307F2AB321B51B2900B137E6 /* Driver.swift in Sources */,
 				307F2ABC21B5210E00B137E6 /* VirtualViews+Rendering.swift in Sources */,
+				E3922F0021CFB1B500F07CF2 /* Subscription.swift in Sources */,
 				307F2ABA21B51C8400B137E6 /* VirtualViews.swift in Sources */,
 				307F2AB621B51B7700B137E6 /* AppState.swift in Sources */,
 				E333D64321CA9B1400788257 /* Command.swift in Sources */,
