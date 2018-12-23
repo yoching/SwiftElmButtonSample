@@ -30,9 +30,9 @@ struct AppState {
             value = value - 1
             return []
         case .save:
-            return [Command<Message>.save(value: value)]
+            return [.save(value: value)]
         case .load:
-            return [Command<Message>.load(available: { .loaded($0) })]
+            return [.load(available: { .loaded($0) })]
         case .loaded(let value):
             self.value = value
             return []
