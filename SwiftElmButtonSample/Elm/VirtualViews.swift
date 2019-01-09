@@ -46,7 +46,7 @@ struct Button<Message> {
 struct StackView<Message> {
     let views: [View<Message>]
     let axis: NSLayoutConstraint.Axis
-    let distriburtion: UIStackView.Distribution
+    let distribution: UIStackView.Distribution
     
     init(
         views: [View<Message>],
@@ -55,7 +55,7 @@ struct StackView<Message> {
         ) {
         self.views = views
         self.axis = axis
-        self.distriburtion = distriburtion
+        self.distribution = distriburtion
     }
     
 }

@@ -86,7 +86,7 @@ struct Renderer<Message> {
             let views = stackView.views.map { makeUIView(from: $0) }
             let uiStackView = UIStackView(arrangedSubviews: views)
             
-            uiStackView.distribution = stackView.distriburtion
+            uiStackView.distribution = stackView.distribution
             uiStackView.axis = stackView.axis
             return uiStackView
         }
